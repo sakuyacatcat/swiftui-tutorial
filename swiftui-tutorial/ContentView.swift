@@ -15,6 +15,7 @@ struct ContentView: View {
             Text(outputText)
                 .font(.largeTitle)
             Button("切り替えボタン") {
+                outputText = "Hi, Swift!"
             }
             .padding(.all)
             .background(.blue)
